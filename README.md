@@ -112,7 +112,7 @@ streamlit run app-v2.py
 
 The app uses the Claude API through LiteLLM. Update these settings in the code:
 ```python
-API_BASE_URL = "https://litellm.deriv.ai/v1"
+API_BASE_URL = "https://api.example.com"
 OPENAI_API_KEY = "your-api-key"
 OPENAI_MODEL_NAME = "claude-4-sonnet"
 ```
